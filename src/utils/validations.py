@@ -1,10 +1,10 @@
 from pydantic import ValidationError
-from src.models.employee import Employee
+from src.models.employee import EmployeeGeneralInfo
 
 
-def employee_data_validator(data):
+def employee_general_info_validator(data):
     try:
-        employee = Employee(**data)
+        employee = EmployeeGeneralInfo(**data)
         return employee.dict()
     except ValidationError as err:
         return str(err)
