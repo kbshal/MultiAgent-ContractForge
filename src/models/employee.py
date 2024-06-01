@@ -9,7 +9,4 @@ class Employee(BaseModel):
     countryOfCitizenship: dict
     countryOfWork: str
     jobTitle: constr(min_length=1)
-    scopeWork: str
-
-
-
+    scopeOfWork: str
