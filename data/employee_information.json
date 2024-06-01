@@ -1,0 +1,30 @@
+{
+    "contractType":"EOR",
+    "niuralEntityToUse":"NIURAL_INC",
+    "eorEmployeeId":"7a633c91-fcef-4b4f-a128-fd90ad8d9fb6",
+    "contractTitle":"<Full name> - <Job title>",
+    "entityRepresentativeName":"Zeppy Test",
+    "employeeFirstName":"<first name of employee>",
+    "employeeLastName":"<last name of the employee",
+    "employeeEmail":"<email address of the employee",
+    "entityRepresentativeEmail":"suraj@niural.com",
+    "jobTitle":"<job title of the employee>",
+    "scopeOfWork":"<scope of work>",
+    "workLocationCountry":{"name":"<country name of working", "iso2":"iso2-alpha-code of the work country"},
+    "countryOfCitizenship":{"name":"<name of the country of citizenship>", "iso2":"<iso2-alpha-code-of the country of citizenship>"},
+    "employmentType":"FULL_TIME",
+    "workHoursPerWeek":"<Work Hours per week>",
+    "compensationType":"ANNUAL",
+    "compensationAmount":"<annual compensation of the employee>",
+    "signingBonus":null,
+    "contractStartDate":"<contract start date>",
+    "probationPeriod":"<probation period>",
+    "timeOffDays":"<time off days per year>",
+    "isWorkEligibilityDocumentRequired":true,
+    "hasWorkEligibilityDocument":true,
+    "noticePeriod":{"periodType":"CUSTOM","afterProbation":{"noticePeriodMethod":"STANDARD","value":"<notice period after probation>"},"noticePeriodUnit":"DAY","duringProbation":{"noticePeriodMethod":"STANDARD","value":"<notice period during probation>"}},
+    "employeeMiddleName":"<middle name of the employee"
+}
+
+
+

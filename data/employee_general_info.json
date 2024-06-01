@@ -1,0 +1,38 @@
+{
+    "contractType": "EOR",
+    "contractTitle": "<Full name> - <Job title>", 
+    "entityName": "Niural Inc",
+    "countryOfCitizenship": {
+        "name": "<name of the country of citizenship>", 
+        "iso2": "<iso2-alpha-code-of the country of citizenship>"
+    },
+    "employeeEmail": "<email address of the employee>",
+    "employeeFirstName": "<first name of the employee>",
+    "employeeLastName": "<last name of the employee>", 
+    "employeeMiddleName": "<middle name of the employee>", 
+    "entityIncorporationLocation": {
+        "addressLine1": "865 Market Street San Francisco Centre",
+        "city": "San Francisco",
+        "country": {
+            "name": "United States", 
+            "iso2": "US"
+        },
+        "state": {
+            "name": "California", 
+            "iso2": "CA", 
+            "label": "California"
+        },
+        "zipcode": "94103"
+    },
+    "entityName": "Niural Inc",
+    "entityRepresentativeEmail": "suraj@niural.com",
+    "entityRepresentativeName": "Zeppy Test",
+    "entityType": "Limited liability company (LLC)",
+    "jobTitle": "<job title of the employee>",
+    "niuralEntityToUse": "NIURAL_INC",
+    "scopeOfWork": "<scope of work>",
+    "workLocationCountry": {
+        "name": "<name of the work country>", 
+        "iso2": "<iso2-alpha-code of the work country>"
+    }
+}
