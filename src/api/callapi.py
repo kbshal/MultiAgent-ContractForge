@@ -7,10 +7,7 @@ def load_config():
     with open(os.path.join.dirname(__file__), '../../config.yaml', 'r') as f:
         return yaml.safe_load(f)
 
-
 config  = load_config()
-
-
 def store_gen_info(data):
     url = config['api_url']
     auth_token = config['auth_token']
