@@ -1,5 +1,9 @@
 from pydantic import  constr, BaseModel, Field, EmailStr, conint, condate, validator
 
+class Country(BaseModel):
+    name: str
+    iso2: str
+
 
 class EmployeeGeneralInfo(BaseModel):
     EmployeeFirstName: constr(min_length=1)
@@ -7,13 +11,9 @@ class EmployeeGeneralInfo(BaseModel):
     EmployeeLastName: constr(min_length=1)
     EmployeeEmail: EmailStr
     EmployeecountryOfCitizenship: dict
-    EmployeecountryOfWork: str
+    EmployeecountryOfWork: Country
     EmployeejobTitle: constr(min_length=1)
     EmployeescopeOfWork: str
-
-class Country(BaseModel):
-    name: str
-    iso2: str
 
 class EmploymentInformation(BaseModel):
     visa_compliance: bool
@@ -48,3 +48,4 @@ class EmploymentInformation(BaseModel):
         if 'notice_period_during_probation' in values and v < values['notice_period_during_probation']:
             raise ValueError('Notice period after probation should be equal to or greater than during probation.')
         return v
+    

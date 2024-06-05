@@ -8,6 +8,7 @@ def load_config():
         return yaml.safe_load(f)
 
 config  = load_config()
+
 def store_gen_info(data):
     url = config['api_url']
     auth_token = config['auth_token']
