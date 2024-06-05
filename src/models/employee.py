@@ -1,19 +1,20 @@
-from pydantic import  constr, BaseModel, Field, EmailStr, conint, condate, validator
+from pydantic import BaseModel, Field, EmailStr, conint, condate, validator, constr
+from datetime import date, timedelta
+from typing import Optional
 
 class Country(BaseModel):
     name: str
     iso2: str
 
-
 class EmployeeGeneralInfo(BaseModel):
-    EmployeeFirstName: constr(min_length=1)
-    EmployeeMiddleName: str = None
-    EmployeeLastName: constr(min_length=1)
-    EmployeeEmail: EmailStr
-    EmployeecountryOfCitizenship: dict
-    EmployeecountryOfWork: Country
-    EmployeejobTitle: constr(min_length=1)
-    EmployeescopeOfWork: str
+    employeeFirstName: constr(min_length=1)
+    employeeMiddleName: Optional[str] = None
+    employeeLastName: constr(min_length=1)
+    employeeEmail: EmailStr
+    employeeCountryOfCitizenship: Country
+    employeeCountryOfWork: Country
+    employeeJobTitle: constr(min_length=1)
+    employeeScopeOfWork: str
 
 class EmploymentInformation(BaseModel):
     visa_compliance: bool
@@ -23,8 +24,8 @@ class EmploymentInformation(BaseModel):
     contract_end_date: Optional[condate()] = None
     time_off: conint(ge=9) = Field(..., description="Number of off days per year, should not be less than 9.")
     probation_period: conint(le=30) = Field(..., description="Probation period should not be greater than 30 days.")
-    notice_period_during_probation: int
-    notice_period_after_probation: int
+    notice_period_during_probation: conint(ge=0) = Field(..., description="Notice period during probation must be non-negative.")
+    notice_period_after_probation: conint(ge=0) = Field(..., description="Notice period after probation must be non-negative.")
     compensation: float
 
     @validator('contract_start_date')
@@ -37,10 +38,11 @@ class EmploymentInformation(BaseModel):
     def validate_employment_terms(cls, v, values):
         if v not in ["Definite", "Indefinite"]:
             raise ValueError("Employment terms can be either Definite or Indefinite.")
-        if v == "Definite" and not values.get('contract_end_date'):
-            raise ValueError("For definite employment terms, contract end date must be provided.")
-        if values.get('contract_end_date') and values.get('contract_start_date') and values['contract_end_date'] <= values['contract_start_date']:
-            raise ValueError("Contract end date should be after contract start date.")
+        if v == "Definite":
+            if 'contract_end_date' not in values or not values['contract_end_date']:
+                raise ValueError("For definite employment terms, contract end date must be provided.")
+            if 'contract_start_date' in values and values['contract_end_date'] <= values['contract_start_date']:
+                raise ValueError("Contract end date should be after contract start date.")
         return v
 
     @validator('notice_period_after_probation')
@@ -48,4 +50,3 @@ class EmploymentInformation(BaseModel):
         if 'notice_period_during_probation' in values and v < values['notice_period_during_probation']:
             raise ValueError('Notice period after probation should be equal to or greater than during probation.')
         return v
-    
