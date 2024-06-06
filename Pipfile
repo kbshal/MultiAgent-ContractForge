@@ -9,6 +9,7 @@ fastapi = "*"
 uvicorn = "*"
 sqlalchemy = "*"
 pyyaml = "*"
+requests = "*"
 
 [dev-packages]
 
