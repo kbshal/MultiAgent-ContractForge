@@ -10,6 +10,7 @@ uvicorn = "*"
 sqlalchemy = "*"
 pyyaml = "*"
 requests = "*"
+loguru = "*"
 
 [dev-packages]
 
