@@ -1,10 +1,12 @@
-from loguru import logger
+import logging
+import sys
 
-
-class AgentLogger(logger):
-   def __init__(self, record=None, lazy=False, colors=True, raw=False, capture=False, patchers=None, extra=None):
-        super().__init__(record=record, lazy=lazy, colors=colors, raw=raw, capture=capture, patchers=patchers, extra=extra)
-
-        self.level("DEBUG_INFO", no=15)
-
-        self.add("contractagent.log", level="DEBUG_INFO")
+class AgentLogger(logging.Logger):
+    def __init__(self, name='root', level=logging.NOTSET, stream=sys.stdout, format=None, datefmt=None, style='%'):
+        super().__init__(name, level)
+        ch = logging.StreamHandler(stream)
+        formatter = logging.Formatter(format, datefmt, style)
+        ch.setFormatter(formatter)
+        self.addHandler(ch)
+        self.setLevel(level)
+        self.propagate = False

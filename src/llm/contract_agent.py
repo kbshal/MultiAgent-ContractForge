@@ -1,18 +1,28 @@
 import yaml
 import requests
 from src.utils.logging import AgentLogger
+import logging
+import os
 
 
-logger = AgentLogger()
+
+my_record = {
+    "message": "This is a test log message.",
+    "level": "INFO",
+   
+}
+
+
+logger = AgentLogger(name='my_app', level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(name)s:%(message)s')
+
 
 def load_config():
-    with open(os.path.join.dirname(__file__), '../../config.yaml', 'r') as f:
+    with open(os.path.join(os.path.dirname(__file__), '../../config/config.yaml'), 'r') as f:
         return yaml.safe_load(f)
 
 def load_secrets():
-    with open(os.path.join.dirname(__file__), '../../secrets.yaml', 'r') as f:
+   with open(os.path.join(os.path.dirname(__file__), '../../config/secrets.yaml'), 'r') as f:
         return yaml.safe_load(f)
-
 
 
 secrets = load_secrets()
@@ -26,8 +36,9 @@ class AIException(Exception):
 class ContractAgent(object):
 
     def __init__(self):
-        self._url = config['opsenai_url']
+        self._url = config['openai_url']
         self._api_token = secrets['openai_api_token']
+        self._model_name = config['model_name']
         self._set_payload_format()
 
     @staticmethod
