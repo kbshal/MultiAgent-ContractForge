@@ -104,12 +104,10 @@ class ContractAgent(object):
         headers = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + str(self._api_token)}
         
         try:
-            logger.info("testing log file")
             response = requests.post(self._url, headers=headers, json=payload)
+            if response.status_code == 200:
+                logger.info("Connection made successfully with openai")
             response = response.json()
-            
-        except Exception as err:
-            logger.critical(f"Error occured while requesting the API  Error message:{err}")
 
         except requests.RequestException as e:
             logger.critical("Error while making an response with openai")
