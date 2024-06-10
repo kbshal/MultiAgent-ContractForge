@@ -12,4 +12,8 @@ app.include_router(
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="localhost", port=2939)
+    uvicorn.run("main:app", 
+    host="localhost", 
+    port=2939, 
+    reload=True
+    )

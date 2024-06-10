@@ -1,20 +1,12 @@
 import yaml
 import requests
 from src.utils.logging import AgentLogger
-import logging
 import os
+import logging
 
 
 
-my_record = {
-    "message": "This is a test log message.",
-    "level": "INFO",
-   
-}
-
-
-logger = AgentLogger(name='my_app', level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(name)s:%(message)s')
-
+logger = AgentLogger(name='contract_agent', level=logging.DEBUG) #logfile='logs/contract_agent.logs'
 
 def load_config():
     with open(os.path.join(os.path.dirname(__file__), '../../config/config.yaml'), 'r') as f:
@@ -43,6 +35,20 @@ class ContractAgent(object):
 
     @staticmethod
     def system_prompt():
+
+        final_output = {
+                "items":{
+                            "employeeFirstName": "John",
+                            "employeeMiddleName": "A",
+                            "employeeLastName": "Doe",
+                            "employeeEmail": "john.doe@example.com",
+                            "countryOfCitizenship": {"name": "United States", "iso2": "US"},
+                            "workLocationCountry": {"name":"Nepal", "iso2": "NP"},
+                            "jobTitle": "Software Engineer",
+                            "scopeOfWork": "Developing and maintaining software applications"
+                        }
+                        }
+
         system_prompt = """
 
        You are an AI assistant designed to help employers create contracts for their employees. Your task is to interact with the employer to collect all the necessary information required to create a contract. The information you need to collect includes:
@@ -56,7 +62,7 @@ class ContractAgent(object):
         7. Employee's Job Title
         8. Employee's Scope of Work
 
-        Please ask the employer one question at a time to collect this information. Confirm each piece of information with the employer before proceeding to the next question. If any information is missing or unclear, politely ask the employer to provide the missing details.
+        Please ask the employer one question at a time to collect this information. Confirm each piece of information with the employer before proceeding to the next question. If any information is missing or unclear, politely ask the employer to provide the missing details. 
 
         Ensure to format the collected information in the following structure:
 
@@ -66,14 +72,17 @@ class ContractAgent(object):
             "employeeLastName": "Doe",
             "employeeEmail": "john.doe@example.com",
             "countryOfCitizenship": {"name": "United States", "iso2": "US"},
-            "countryOfWork": "United States",
+            "workLocationCountry": {"name":”Nepal”, "iso2": "NP"} },
             "jobTitle": "Software Engineer",
             "scopeOfWork": "Developing and maintaining software applications"
         }
 
-        Begin by greeting the employer and ask for the employee's first name.
+        Begin by greeting the employer and ask for the employee's first name. 
+        
+        NOTE: YOU WILL RESPONSE THE OUTPUT IN JSON FORMAT YOU WILL ONLY OUTPUT THE JSON NOT ANY ADDITIONAL TEXT.
 
-        You will return like this {"message":"You will leave here the new question or initial question", "items": collected information in json format like above}
+        NOTE: YOU WILL STRICTLY FOLLOW THIS OUTPUT FORMAT {"message":Your next question, "items": collected items in json format}
+
 
         """
 
@@ -87,30 +96,29 @@ class ContractAgent(object):
             ]
         }
     
-    def _make_request(self, convo_list):
+    def _make_request(self, messages):
         payload = self._payload_format
-        for convo in convo_list:
+        for convo in messages:
             payload['messages'].append(convo)
 
         headers = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + str(self._api_token)}
         
         try:
+            logger.info("testing log file")
             response = requests.post(self._url, headers=headers, json=payload)
+            response = response.json()
             
         except Exception as err:
             logger.critical(f"Error occured while requesting the API  Error message:{err}")
-        try:
-            response.raise_for_status()
-            if response.status_code == 200:
-                logger.success("Request was successfully with openai")
-            response_data = response.json()
-            return response_data["choices"][0]["message"]["content"]
 
         except requests.RequestException as e:
             logger.critical("Error while making an response with openai")
             logger.debug(f"Error message was:{e}")
 
-    def get_employee_general_info(self, convo_list):
-        convo_list = list(convo_list)
-        return self._make_request(convo_list)
+        return response["choices"][0]["message"]["content"]
+        
+
+    def get_employee_general_info(self, messages):
+        convo_list = list(messages)
+        return self._make_request(messages)
             
