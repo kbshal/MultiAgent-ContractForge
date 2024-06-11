@@ -1,6 +1,7 @@
 from pydantic import ValidationError
 from src.models.employee import EmployeeGeneralInfo
 from src.models.employee import EmploymentInformation
+from constants import ROOT_DIR
 
 
 def employee_general_info_validator(data):
@@ -117,32 +118,10 @@ def update_general_info(general_info, info):
             update_general_info(value, info)
 
 
-def update_general_info(general_info, info):
-    # Special handling for composite placeholders like "<Full name> - <Job title>"
-    full_name = f"{info.get('employeeFirstName', '')} {info.get('employeeMiddleName', '')} {info.get('employeeLastName', '')}".strip()
-    job_title = info.get('jobTitle', '')
-    if full_name and job_title:
-        general_info['contractTitle'] = f"{full_name} - {job_title}"
+def update_general_info(general_info):
+    with open(os.path.join(ROOT_DIR, '/data/employee_general_info.json')) as f:
+        complete_general_info = f.read()
 
-    # Update general_info with values from info
-    for key, value in info.items():
-        if isinstance(value, dict):
-            # Update nested dictionaries directly if they exist in general_info
-            if key in general_info and isinstance(general_info[key], dict):
-                general_info[key].update(value)
-        else:
-            # Replace placeholders in string values or update top-level keys
-            for g_key, g_value in general_info.items():
-                if isinstance(g_value, str) and f"<{key}>" in g_value:
-                    general_info[g_key] = g_value.replace(f"<{key}>", str(value))
-                elif key == g_key:
-                    general_info[g_key] = value
-
-# Assuming general_info and info are defined as shown
-update_general_info(general_info, info)
-
-# Print the updated general_info to verify the changes
-print(general_info)
 
 
 
