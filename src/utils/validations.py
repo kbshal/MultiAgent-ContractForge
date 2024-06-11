@@ -118,9 +118,13 @@ def update_general_info(general_info, info):
             update_general_info(value, info)
 
 
-def update_general_info(general_info):
-    with open(os.path.join(ROOT_DIR, '/data/employee_general_info.json')) as f:
+def update_general_info(general_info:dict) ->dict :
+    with open(os.path.join(ROOT_DIR, 'templates/employee_general_info.json')) as f:
         complete_general_info = f.read()
+
+    
+
+    
 
 
 
