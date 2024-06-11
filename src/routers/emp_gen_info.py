@@ -28,6 +28,9 @@ def general_info(messages: MessagePayload):
     verify_dict = verify_dictionary(dict(to_be_verified))
     if verify_dict['action']:
         print("Okay verified!")
+
+        # now add this value to employee_general info to template and validate it and store it
+        
         # now call the api to call the general info 
    
     return output
