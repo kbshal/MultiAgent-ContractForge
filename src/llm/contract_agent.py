@@ -83,7 +83,7 @@ class ContractAgent(object):
 
         NOTE: YOU WILL STRICTLY FOLLOW THIS OUTPUT FORMAT {"message":Your next question, "items": collected items in json format}
 
-
+        NOTE: IF DATA IS NULL THE SIMPLY PUT VALUE null in string like this "null"
         """
 
         return system_prompt
