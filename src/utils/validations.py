@@ -2,14 +2,18 @@ from pydantic import ValidationError
 from src.models.employee import EmployeeGeneralInfo
 from src.models.employee import EmploymentInformation
 from constants import ROOT_DIR
+import os 
+import json
 
 
-def employee_general_info_validator(data):
-    try:
-        employee = EmployeeGeneralInfo(**data)
-        return employee.dict()
-    except ValidationError as err:
-        return str(err)
+class UpdateGeneralInfoException(Exception):
+    def __init__(self):
+        super().__init__("Something wrong occured while update the complete genral info")
+
+
+class NiuralException(Exception):
+    def __init__(self):
+        self.__init__("Error while making request to Niural Server")
 
     
 def employment_info_validator(data):
@@ -53,13 +57,22 @@ def verify_dictionary(input_dict) -> dict:
        
 
 def update_general_info(general_info:dict) ->dict :
-    with open(os.path.join(ROOT_DIR, 'templates/employee_general_info.json')) as f:
-        complete_general_info = f.read()
+    try:
+        general_info = dict(general_info)
+        with open(os.path.join(ROOT_DIR, 'templates/employee_general_info.json')) as f:
+            complete_general_info = json.loads(f.read())
 
-    for key in general_info.keys():
-        complete_general_info[key] = general_info[key]
+        for key, value in general_info.items():
+            complete_general_info[key] = general_info[key]
+            if value is None:
+                complete_general_info[key] = "null"
+                continue
+        complete_general_info['contractTitle'] = general_info['employeeFirstName'] + " " + general_info['employeeLastName'] + " - " + general_info['jobTitle']
 
-    return complete_general_info
+        return complete_general_info
+    except Exception as err:
+        raise UpdateGeneralInfoException(err)
+        
 
 
     

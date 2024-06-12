@@ -6,3 +6,189 @@
 2024-06-12 00:59:42,583 - contract_agent - INFO - Connection made successfully with openai
 2024-06-12 01:02:20,860 - contract_agent - INFO - Connection made successfully with openai
 2024-06-12 01:02:45,239 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:16:15,200 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:16:59,733 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:18:29,333 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:20:36,721 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:22:14,438 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:25:00,109 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:25:12,817 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:26:07,848 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:35:20,305 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:35:52,356 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:37:33,374 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:39:12,567 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:39:48,835 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:42:13,695 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:43:25,315 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:44:15,547 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:45:13,564 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 16:46:13,280 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:04:00,223 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:14:44,493 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:15:21,058 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:16:42,053 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:17:31,041 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:18:01,227 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:18:20,277 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:19:27,553 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:19:54,123 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:20:11,741 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:22:01,002 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:23:20,220 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:23:41,891 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:24:11,742 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:24:35,792 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:25:12,720 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:26:06,727 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:26:34,529 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:27:15,149 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:28:30,008 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:29:08,182 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:30:04,752 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 17:30:04,754 - root - INFO - User submitted values validated!
+2024-06-12 18:02:22,641 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:02:22,645 - root - INFO - User submitted values validated!
+2024-06-12 18:04:56,990 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:04:56,994 - root - INFO - User submitted values validated!
+2024-06-12 18:05:52,167 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:09:35,392 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:09:35,395 - root - INFO - User submitted values validated!
+2024-06-12 18:10:45,621 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:10:45,624 - root - INFO - User submitted values validated!
+2024-06-12 18:12:42,722 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:12:42,724 - root - INFO - User submitted values validated!
+2024-06-12 18:13:07,355 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:13:07,356 - root - INFO - User submitted values validated!
+2024-06-12 18:14:13,872 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:14:13,874 - root - INFO - User submitted values validated!
+2024-06-12 18:50:50,807 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:50:50,809 - root - INFO - User submitted values validated!
+2024-06-12 18:50:59,898 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:50:59,900 - root - INFO - User submitted values validated!
+2024-06-12 18:59:53,089 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 18:59:53,092 - root - INFO - User submitted values validated!
+2024-06-12 20:10:49,865 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 20:10:49,869 - root - INFO - User submitted values validated!
+2024-06-12 20:19:20,626 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 20:19:20,630 - root - INFO - User submitted values validated!
+2024-06-12 22:47:18,492 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 22:47:18,495 - root - INFO - User submitted values validated!
+2024-06-12 22:48:12,257 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 22:48:12,259 - root - INFO - User submitted values validated!
+2024-06-12 22:50:04,199 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 22:50:04,202 - root - INFO - User submitted values validated!
+2024-06-12 22:50:40,283 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 22:50:40,286 - root - INFO - User submitted values validated!
+2024-06-12 22:56:32,502 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 22:56:32,506 - root - INFO - User submitted values validated!
+2024-06-12 23:06:23,553 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:06:23,556 - root - INFO - User submitted values validated!
+2024-06-12 23:07:12,918 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:07:12,920 - root - INFO - User submitted values validated!
+2024-06-12 23:07:39,024 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:07:39,027 - root - INFO - User submitted values validated!
+2024-06-12 23:08:54,723 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:08:54,726 - root - INFO - User submitted values validated!
+2024-06-12 23:10:13,949 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:10:13,952 - root - INFO - User submitted values validated!
+2024-06-12 23:10:30,979 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:10:30,980 - root - INFO - User submitted values validated!
+2024-06-12 23:12:33,278 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:12:33,281 - root - INFO - User submitted values validated!
+2024-06-12 23:13:17,467 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:13:17,470 - root - INFO - User submitted values validated!
+2024-06-12 23:14:28,105 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:14:28,108 - root - INFO - User submitted values validated!
+2024-06-12 23:17:03,562 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:17:03,565 - root - INFO - User submitted values validated!
+2024-06-12 23:18:44,298 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:18:44,305 - root - INFO - User submitted values validated!
+2024-06-12 23:19:00,156 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:19:00,157 - root - INFO - User submitted values validated!
+2024-06-12 23:20:14,717 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:20:14,719 - root - INFO - User submitted values validated!
+2024-06-12 23:20:37,376 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:20:37,378 - root - INFO - User submitted values validated!
+2024-06-12 23:20:58,156 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:20:58,159 - root - INFO - User submitted values validated!
+2024-06-12 23:21:01,134 - root - INFO - A contract has been created successfully!
+2024-06-12 23:22:43,403 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:22:43,407 - root - INFO - User submitted values validated!
+2024-06-12 23:22:46,592 - root - INFO - A contract has been created successfully!
+2024-06-12 23:26:53,543 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:27:18,387 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:27:43,831 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:27:43,833 - root - INFO - User submitted values validated!
+2024-06-12 23:27:46,630 - root - INFO - A contract has been created successfully!
+2024-06-12 23:27:58,262 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:27:58,265 - root - INFO - User submitted values validated!
+2024-06-12 23:28:01,174 - root - INFO - A contract has been created successfully!
+2024-06-12 23:33:38,448 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:33:38,462 - root - INFO - User submitted values validated!
+2024-06-12 23:35:45,455 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:36:35,762 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:37:46,852 - contract_agent - INFO - Connection made successfully with openai
+2024-06-12 23:37:46,854 - root - INFO - User submitted values validated!
+2024-06-12 23:37:49,935 - root - INFO - A contract has been created successfully!
+2024-06-13 00:05:00,934 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:05:17,921 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:05:17,923 - root - INFO - User submitted values validated!
+2024-06-13 00:05:30,967 - root - INFO - A contract has been created successfully!
+2024-06-13 00:20:09,176 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:20:09,179 - root - INFO - User submitted values validated!
+2024-06-13 00:20:22,751 - root - INFO - A contract has been created successfully!
+2024-06-13 00:21:10,390 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:22:24,819 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:22:43,207 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:23:44,626 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:25:43,051 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:26:18,285 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:27:11,895 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:27:39,242 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:37:22,792 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:39:00,396 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:43:22,746 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:43:56,513 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:45:55,247 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:45:55,248 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 00:48:26,581 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:48:26,582 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 00:49:22,075 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:49:22,076 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 00:50:33,505 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:50:33,509 - root - INFO - User submitted values validated!
+2024-06-13 00:50:46,781 - root - INFO - A contract has been created successfully!
+2024-06-13 00:53:24,771 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 00:53:24,773 - root - INFO - User submitted values validated!
+2024-06-13 00:53:27,798 - root - INFO - A contract has been created successfully!
+2024-06-13 01:17:16,142 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:17:16,144 - root - INFO - User submitted values validated!
+2024-06-13 01:17:30,761 - root - INFO - A contract has been created successfully!
+2024-06-13 01:19:20,262 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:19:20,264 - root - INFO - User submitted values validated!
+2024-06-13 01:19:27,568 - root - INFO - A contract has been created successfully!
+2024-06-13 01:20:10,139 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:20:10,141 - root - INFO - User submitted values validated!
+2024-06-13 01:20:13,329 - root - INFO - A contract has been created successfully!
+2024-06-13 01:21:19,937 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:21:19,940 - root - INFO - User submitted values validated!
+2024-06-13 01:21:22,500 - root - INFO - A contract has been created successfully!
+2024-06-13 01:29:06,038 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:29:06,042 - root - INFO - User submitted values validated!
+2024-06-13 01:29:19,573 - root - INFO - A contract has been created successfully!
+2024-06-13 01:30:52,507 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:30:52,511 - root - INFO - User submitted values validated!
+2024-06-13 01:30:55,936 - root - INFO - A contract has been created successfully!
+2024-06-13 01:33:43,010 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:33:43,012 - root - INFO - User submitted values validated!
+2024-06-13 01:33:46,770 - root - INFO - A contract has been created successfully!
+2024-06-13 01:38:31,920 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:39:32,447 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:39:32,450 - root - INFO - User submitted values validated!
+2024-06-13 01:39:39,773 - root - INFO - A contract has been created successfully!
+2024-06-13 01:43:28,740 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:43:28,742 - root - INFO - User submitted values validated!
+2024-06-13 01:43:32,275 - root - INFO - A contract has been created successfully!
+2024-06-13 01:44:04,479 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 01:44:04,481 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
