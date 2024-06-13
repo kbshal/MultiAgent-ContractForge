@@ -11,6 +11,7 @@ sqlalchemy = "*"
 pyyaml = "*"
 requests = "*"
 loguru = "*"
+pandas = "*"
 
 [dev-packages]
 

@@ -192,3 +192,255 @@
 2024-06-13 01:43:32,275 - root - INFO - A contract has been created successfully!
 2024-06-13 01:44:04,479 - contract_agent - INFO - Connection made successfully with openai
 2024-06-13 01:44:04,481 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 11:33:51,334 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 11:33:51,338 - root - INFO - User submitted values validated!
+2024-06-13 11:33:55,217 - root - INFO - A contract has been created successfully!
+2024-06-13 11:58:17,667 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 11:58:17,670 - root - INFO - User submitted values validated!
+2024-06-13 11:58:26,934 - root - INFO - A contract has been created successfully!
+2024-06-13 11:59:40,368 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 11:59:40,369 - root - INFO - User submitted values validated!
+2024-06-13 11:59:43,402 - root - INFO - A contract has been created successfully!
+2024-06-13 12:00:06,941 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:00:06,942 - root - INFO - User submitted values validated!
+2024-06-13 12:00:11,590 - root - INFO - A contract has been created successfully!
+2024-06-13 12:11:37,591 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:11:37,593 - root - INFO - User submitted values validated!
+2024-06-13 12:11:47,623 - root - INFO - A contract has been created successfully!
+2024-06-13 12:20:28,155 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:20:28,157 - root - INFO - User submitted values validated!
+2024-06-13 12:20:37,337 - root - INFO - A contract has been created successfully!
+2024-06-13 12:21:31,538 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:21:31,540 - root - INFO - User submitted values validated!
+2024-06-13 12:21:34,365 - root - INFO - A contract has been created successfully!
+2024-06-13 12:21:45,388 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:21:45,391 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 12:27:04,935 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:27:04,937 - root - INFO - User submitted values validated!
+2024-06-13 12:27:18,407 - root - INFO - A contract has been created successfully!
+2024-06-13 12:27:18,411 - root - INFO - Stored the user contract data
+2024-06-13 12:29:50,893 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:29:50,897 - root - INFO - User submitted values validated!
+2024-06-13 12:29:54,016 - root - INFO - A contract has been created successfully!
+2024-06-13 12:29:54,019 - root - INFO - Stored the user contract data
+2024-06-13 12:38:20,249 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:38:20,253 - root - INFO - User submitted values validated!
+2024-06-13 12:38:48,799 - root - DEBUG - error while creating contract 
+2024-06-13 12:40:30,061 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:40:30,063 - root - INFO - User submitted values validated!
+2024-06-13 12:40:33,643 - root - INFO - A contract has been created successfully!
+2024-06-13 12:40:33,646 - root - INFO - Stored the user contract data
+2024-06-13 12:40:49,034 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:40:49,036 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 12:40:52,895 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:40:52,896 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 12:41:41,542 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:41:41,543 - root - INFO - User submitted values validated!
+2024-06-13 12:41:44,496 - root - INFO - A contract has been created successfully!
+2024-06-13 12:41:44,500 - root - INFO - Stored the user contract data
+2024-06-13 12:42:45,735 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 12:42:45,737 - root - INFO - User submitted values validated!
+2024-06-13 12:42:48,245 - root - INFO - A contract has been created successfully!
+2024-06-13 12:42:48,247 - root - INFO - Stored the user contract data
+2024-06-13 15:53:15,964 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:14:37,928 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:14:37,929 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:14:50,920 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:14:50,922 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:14:56,674 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:14:56,675 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:08,962 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:08,964 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:20,451 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:20,453 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:28,998 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:28,999 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:34,690 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:34,692 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:41,578 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:41,579 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:15:50,084 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:15:50,085 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:17:58,714 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:17:58,715 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:18:36,852 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:18:36,855 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:18:46,990 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:18:46,993 - root - INFO - User submitted values validated!
+2024-06-13 16:18:52,818 - root - INFO - A contract has been created successfully!
+2024-06-13 16:18:52,821 - root - INFO - Stored the user contract data
+2024-06-13 16:19:23,571 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:19:23,574 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:19:27,119 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:19:27,120 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:19:32,803 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:19:32,806 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:19:45,446 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:19:45,449 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:09,420 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:09,423 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:14,339 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:14,340 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:22,731 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:22,734 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:30,711 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:30,712 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:38,044 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:38,046 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:45,857 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:45,859 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:51,864 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:51,865 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:21:56,560 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:21:56,562 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:22:08,006 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:22:08,009 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:22:21,091 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:22:21,093 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:22:47,155 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:22:47,158 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 16:24:21,022 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:24:21,026 - root - INFO - User submitted values validated!
+2024-06-13 16:24:25,044 - root - INFO - A contract has been created successfully!
+2024-06-13 16:24:25,049 - root - INFO - Stored the user contract data
+2024-06-13 16:25:40,929 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:42:18,048 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 16:42:18,052 - root - INFO - User submitted values validated!
+2024-06-13 16:42:22,802 - root - INFO - A contract has been created successfully!
+2024-06-13 16:42:22,806 - root - INFO - Stored the user contract data
+2024-06-13 20:50:09,812 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 20:52:29,195 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 20:52:52,464 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 20:54:36,758 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:01,415 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:01,416 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:09,391 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:09,392 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:15,929 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:15,931 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:22,502 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:22,504 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:44,392 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:44,393 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:52,443 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:52,445 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:41:56,975 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:41:56,976 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:42:00,665 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:42:00,667 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:42:06,055 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:42:06,056 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:42:16,459 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:42:16,461 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:42:39,144 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:42:39,145 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:44:39,882 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:44:39,884 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:44:46,691 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:44:46,692 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:44:53,504 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:44:53,505 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:00,421 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:00,424 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:04,924 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:04,925 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:10,399 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:10,401 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:14,412 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:14,413 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:16,867 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:16,869 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:31,323 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:31,324 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:36,998 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:37,001 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:45,233 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:45,235 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:45:55,175 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:45:55,177 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 22:46:21,383 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 22:46:21,386 - root - INFO - User submitted values validated!
+2024-06-13 22:46:34,921 - root - INFO - A contract has been created successfully!
+2024-06-13 22:46:34,925 - root - INFO - Stored the user contract data
+2024-06-13 23:01:43,779 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:01:43,783 - root - INFO - User submitted values validated!
+2024-06-13 23:01:56,915 - root - INFO - A contract has been created successfully!
+2024-06-13 23:01:56,918 - root - INFO - Stored the user contract data
+2024-06-13 23:08:39,919 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:08:39,921 - root - INFO - User submitted values validated!
+2024-06-13 23:08:50,602 - root - INFO - A contract has been created successfully!
+2024-06-13 23:08:50,604 - root - INFO - Successfully stored user contract data.
+2024-06-13 23:19:53,463 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:19:53,465 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:19:58,572 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:19:58,573 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:08,057 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:08,058 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:12,442 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:12,443 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:21,875 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:21,877 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:29,765 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:29,767 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:37,309 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:37,310 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:44,348 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:44,349 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:20:51,144 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:20:51,145 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:21:07,762 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:21:07,763 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:21:23,888 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:21:23,889 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:21:59,008 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:21:59,010 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:09,994 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:09,995 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:15,368 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:15,369 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:23,497 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:23,498 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:26,994 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:26,995 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:30,289 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:30,290 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:37,443 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:37,445 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:22:49,551 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:22:49,554 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:23:57,238 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:00,558 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:00,559 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:04,892 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:04,893 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:10,956 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:10,957 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:15,968 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:15,969 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:25,295 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:25,296 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:29,231 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:29,232 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:32,809 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:32,810 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:37,686 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:37,687 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:44,517 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:44,517 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:48,480 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:48,482 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:51,669 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:51,670 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:24:55,244 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:24:55,245 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:25:00,507 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:25:00,510 - root - INFO - User submitted values validated!
+2024-06-13 23:25:04,466 - root - DEBUG - error while creating contract 
+2024-06-13 23:25:26,598 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:25:26,599 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-13 23:25:37,519 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:25:37,523 - root - INFO - User submitted values validated!
+2024-06-13 23:25:38,251 - root - DEBUG - error while creating contract 
+2024-06-13 23:26:17,644 - contract_agent - INFO - Connection made successfully with openai
+2024-06-13 23:26:17,648 - root - INFO - User submitted values validated!
+2024-06-13 23:26:18,509 - root - DEBUG - error while creating contract 

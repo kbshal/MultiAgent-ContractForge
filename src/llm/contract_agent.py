@@ -3,6 +3,7 @@ import requests
 from src.utils.logging import AgentLogger
 import os
 import logging
+from datetime import datetime, date
 
 
 
@@ -110,7 +111,7 @@ class ContractAgent(object):
 
         {
             "message": "Your next question",
-            "items": {
+            "items":  {
                 "employeeFirstName": "John",
                 "employeeMiddleName": "A",
                 "employeeLastName": "Doe",
@@ -119,7 +120,7 @@ class ContractAgent(object):
                 "workLocationCountry": {"name": "Nepal", "iso2": "NP"},
                 "jobTitle": "Software Engineer",
                 "scopeOfWork": "Developing and maintaining software applications"
-            }
+                }
         }
         NOTE: Use null for any missing or optional values.
 
@@ -128,7 +129,7 @@ class ContractAgent(object):
         return abc
 
     @staticmethod
-    def update_employment_info():
+    def update_employement_info_sys_prompt():
         system_prompt = """
 
 
@@ -138,7 +139,7 @@ class ContractAgent(object):
 
                 Work Hours Per Week: Ask the employer to input the standard work hours per week. If the number of work hours does not lie in the range of 40-60 hours per week, ask them to re-enter the number of hours, stating that the work hours must be within this range.
 
-                Contract Start Date: Ask the employer to input the contract start date, which should be at least 5 days ahead of today's date.
+                Contract Start Date: Ask the employer to input the contract start date, which should be at least 5 days ahead of today's date. And, Today's date is {date.today}
 
                 Employment Terms: Ask the employer to specify whether the employment term is Definite or Indefinite. If the term is definite, ask for the contract end date, which should be after the contract start date.
 
@@ -158,28 +159,58 @@ class ContractAgent(object):
 
                 Ensure to format the collected information in the following structure:
 
-    
+
                 {
-                
                     "workHoursPerWeek": 40,
                     "contractStartDate": "2024-06-17",
-                    "employmentTerms": {
-                        "termType": "Definite",
-                        "contractEndDate": "2024-12-31"
-                    },
+                    "timeOffDays": 8,
                     "timeOffPerYear": 10,
-                    "probationPeriod": 30,
+                    "probationPeriod": 20,
                     "noticePeriod": {
-                        "duringProbation": 15,
-                        "afterProbation": 30
+                        "periodType": "CUSTOM",
+                        "afterProbation": {
+                            "noticePeriodMethod": "STANDARD",
+                            "value": 3
+                        },
+                        "noticePeriodUnit": "DAY",
+                        "duringProbation": {
+                            "noticePeriodMethod": "STANDARD",
+                            "value": 12
+                        }
                     },
-                    "compensation": 60000
+                    "compensationAmount": 60000
                 }
-                Begin by greeting the employer and ask if the employee is authorized to work in the country set in the general information section.
+
+             NOTE: You will strictly follow this output format:
 
 
+            {
+            "message": <question you want to ask or your reply>,
+            "items": {
+                    "workHoursPerWeek": 40,
+                    "contractStartDate": "2024-06-17",
+                    "timeOffDays": 8,
+                    "timeOffPerYear": 10,
+                    "probationPeriod": 20,
+                    "noticePeriod": {
+                        "periodType": "CUSTOM",
+                        "afterProbation": {
+                            "noticePeriodMethod": "STANDARD",
+                            "value": 3
+                        },
+                        "noticePeriodUnit": "DAY",
+                        "duringProbation": {
+                            "noticePeriodMethod": "STANDARD",
+                            "value": 12
+                        }
+                    },
+                    "compensationAmount": 60000
+                }
+        }
 
-        """
+            Begin by greeting the employer and ask if the employee is authorized to work in the country set in the general information section.
+            """
+        return system_prompt
 
     def _set_payload_format(self):
         self._payload_format = {
@@ -189,8 +220,16 @@ class ContractAgent(object):
             ]
         }
     
-    def _make_request(self, messages):
-        payload = self._payload_format
+    def _make_request(self, messages, is_update=False):
+        payload = self._payload_format.copy()
+        if is_update:
+           
+            payload['messages'][0]['content'] = self.update_employement_info_sys_prompt()
+        else:
+           
+            payload = self._payload_format
+
+       
         for convo in messages:
             payload['messages'].append(convo)
 
@@ -200,10 +239,9 @@ class ContractAgent(object):
             response = requests.post(self._url, headers=headers, json=payload)
             if response.status_code == 200:
                 logger.info("Connection made successfully with openai")
-
         except requests.RequestException as e:
-            logger.critical("Error while making an response with openai")
-            logger.debug(f"Error message was:{e}")
+            logger.critical("Error while making a request with openai")
+            logger.debug(f"Error message was: {e}")
 
         return response.json()["choices"][0]["message"]["content"]
         
@@ -215,4 +253,4 @@ class ContractAgent(object):
 
     def update_employement_info(self, messages):
         convo_list = list(messages)
-        return self._make_request
+        return self._make_request(messages, is_update=True)

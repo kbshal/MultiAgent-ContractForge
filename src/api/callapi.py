@@ -41,9 +41,6 @@ def store_gen_info(data):
 
 
 
-
-    
-
 def update_employment_info(contract_id, data):
     url = config['url']+f'/{contract_id}'
     auth_token = secrets['auth_token']
