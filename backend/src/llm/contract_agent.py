@@ -110,7 +110,7 @@ class ContractAgent(object):
         NOTE: You will strictly follow this output format:
 
         {
-            "message": "Your next question",
+            "message": <question you want to ask or your reply>,
             "items":  {
                 "employeeFirstName": "John",
                 "employeeMiddleName": "A",
