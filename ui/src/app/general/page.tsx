@@ -30,7 +30,7 @@ const General = () => {
 
       try {
         const response = await axios.post(
-          "https://gpt.aifagoon.com/api/v2/fagoongpt/",
+          "http://0.0.0.0:29349/gen_info/", //http://0.0.0.0:29349/update_employement/
           { messages: messages.concat(newMessage) }, // Updated key from "message" to "messages"
           {
             headers: {

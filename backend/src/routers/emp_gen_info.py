@@ -84,7 +84,7 @@ def general_info(messages: MessagePayload):
 
     return message
 
-@router.patch("/update_employement/")
+@router.post("/update_employement/")
 def update_employment(items: UpdateEmployment):
     items = items.dict()
     contract_id = items['contract_id']

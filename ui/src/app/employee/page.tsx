@@ -37,7 +37,7 @@ const Employee = () => {
 
       try {
         const response = await axios.post(
-          "https://gpt.aifagoon.com/api/v2/fagoongpt/", //ENDPOINT HERE---------
+          "http://0.0.0.0:29349/update_employement/", //ENDPOINT HERE---------
           {
             contract_id: contract_id,
             messages: messages.concat(newMessage)
