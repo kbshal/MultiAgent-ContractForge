@@ -1,0 +1,9 @@
+config/config.yaml
+config/secrets.yaml
+
+tests/testcode.py
+tests/database.py
+tests/test.db
+testfile.py
+
+__pycache__
