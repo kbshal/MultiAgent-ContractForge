@@ -444,3 +444,49 @@
 2024-06-13 23:26:17,644 - contract_agent - INFO - Connection made successfully with openai
 2024-06-13 23:26:17,648 - root - INFO - User submitted values validated!
 2024-06-13 23:26:18,509 - root - DEBUG - error while creating contract 
+2024-06-14 03:26:24,111 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 03:26:24,113 - root - INFO - Either something wrong while parsing user's data or it's going on
+2024-06-14 03:26:24,113 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 03:26:44,410 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 03:26:44,411 - root - INFO - Either something wrong while parsing user's data or it's going on
+2024-06-14 03:26:44,411 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:21:15,908 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:21:15,911 - root - INFO - Either something wrong while parsing user's data or it's going on
+2024-06-14 11:21:15,911 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:27:01,365 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:27:01,367 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:27:01,367 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:29:39,426 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:29:39,435 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:29:39,435 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:29:45,581 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:29:45,582 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:29:45,582 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:29:55,486 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:29:55,488 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:29:55,488 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:03,157 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:03,159 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:03,159 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:12,694 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:12,696 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:12,696 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:23,344 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:23,346 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:23,347 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:29,303 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:29,305 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:29,305 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:37,209 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:37,211 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:37,212 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:30:44,964 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:30:44,966 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:30:44,967 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:31:06,396 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:31:06,397 - root - INFO - Either something wrong while parsing user submitted data or it's going on.
+2024-06-14 11:31:06,398 - root - ERROR - An unexpected error occurred: cannot access local variable 'verify_dict' where it is not associated with a value
+2024-06-14 11:31:46,368 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 11:31:46,373 - root - INFO - User submitted values validated!
+2024-06-14 11:31:47,241 - root - DEBUG - error while creating contract 
+2024-06-14 11:31:47,242 - root - ERROR - An unexpected error occurred: 'data'

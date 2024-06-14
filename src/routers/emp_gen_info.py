@@ -114,15 +114,14 @@ def update_employment(items: UpdateEmployment):
             try:
                 complete_employment_update = patch_update_employeement_complete(contract_id, to_be_verified)
                 logger.info("Got complete update patch json and validated!")
-
                 try:
-                    res = update_employment(contract_id, complete_employement_info)
+                    res = update_employment_info(contract_id, complete_employement_info)
                 except NiuralException:
                     logger.debug("Error while making request to niural server [patch]")
 
             except UpdatePatchEmployementInfoException:
                 logger.debug("Couldnt get the complete patch body json.")
-            
+      
     except Exception as err:
         logger.error(f"An unexpected error occurred: {err}")
     

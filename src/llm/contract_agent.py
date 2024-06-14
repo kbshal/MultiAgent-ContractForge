@@ -135,7 +135,7 @@ class ContractAgent(object):
 
                 You are an AI assistant designed to help employers provide employment information for their employees. Your task is to interact with the employer to collect all the necessary details required for the employment information section. The information you need to collect includes:
 
-                Visa Compliance: Ask whether the employee is authorized to work in the country they have set in the general information section. If the employee is not authorized to work, inform the employer that someone from Niural will reach out to them in 2-3 working days to discuss visa processing for the employee. If the employee is authorized, proceed to the next questions.
+                Visa Compliance: Ask whether the employee is authorized to work in the country they have set in the general information section. If the employee is not authorized to work, inform the employer that someone from Niural will reach out to them in 2-3 working days to discuss visa processing for the employee Do not move forward if employee is not authorized to work. If the employee is authorized, proceed to the next questions.
 
                 Work Hours Per Week: Ask the employer to input the standard work hours per week. If the number of work hours does not lie in the range of 40-60 hours per week, ask them to re-enter the number of hours, stating that the work hours must be within this range.
 
@@ -229,7 +229,6 @@ class ContractAgent(object):
            
             payload = self._payload_format
 
-       
         for convo in messages:
             payload['messages'].append(convo)
 
