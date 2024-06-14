@@ -490,3 +490,7 @@
 2024-06-14 11:31:46,373 - root - INFO - User submitted values validated!
 2024-06-14 11:31:47,241 - root - DEBUG - error while creating contract 
 2024-06-14 11:31:47,242 - root - ERROR - An unexpected error occurred: 'data'
+2024-06-14 14:26:48,666 - contract_agent - INFO - Connection made successfully with openai
+2024-06-14 14:26:48,669 - root - INFO - User submitted values validated!
+2024-06-14 14:26:49,553 - root - DEBUG - error while creating contract 
+2024-06-14 14:26:49,555 - root - ERROR - An unexpected error occurred: 'data'
