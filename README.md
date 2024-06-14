@@ -50,7 +50,7 @@ This project is an AI agent with a backend and a frontend. The backend is implem
 3. **Set up the frontend:**
 
     ```sh
-    cd ../frontend
+    cd ../ui
     ```
 
     - Install dependencies:
